@@ -16,7 +16,7 @@ const MedicineDeatailCart = () => {
         <Link className="p-1 m-3 text-white bg-indigo-700 rounded" to="/">
           Back
         </Link>
-        <div className="flex items-center justify-center gap-2 p-3 shadow-2xl md:m-3 sm:m-3 hover:translate-y-3 rounded-3xl bg-slate-100 h-36 w-96 ">
+        <div className="flex items-center justify-center gap-2 p-3 shadow-2xl md:m-3 sm:m-3 hover:translate-y-3 rounded-3xl bg-slate-100 w-80 md:w-96 sm:w-80 lg:w-96 ">
           <img
             className="h-20 rounded-lg"
             src={medicine.image}
